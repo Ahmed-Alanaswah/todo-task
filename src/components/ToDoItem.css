@@ -1,0 +1,28 @@
+.Card {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 18px 0 10px;
+  align-items: center;
+  border: 1px solid #999;
+}
+
+.check-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+.check-container li {
+  margin-left: 10px;
+}
+
+.Card:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.Card:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

@@ -1,0 +1,21 @@
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+  border: 1px solid #999;
+}
