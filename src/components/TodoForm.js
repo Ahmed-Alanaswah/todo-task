@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { MdOutlineAddCircle } from "react-icons/md";
 import "./TodoForm.css";
-export class TodoForm extends Component {
+class TodoForm extends Component {
   render() {
     return (
       <div className="form">

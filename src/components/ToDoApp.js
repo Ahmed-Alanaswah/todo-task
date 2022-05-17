@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import TodoForm from "./TodoForm";
 import "./TodoApp.css";
 import ToDoItem from "./ToDoItem";
-export class ToDoApp extends Component {
+class ToDoApp extends Component {
   state = {
     todos: [],
     newTodo: "",
